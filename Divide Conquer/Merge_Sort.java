@@ -1,7 +1,7 @@
 public class Merge_Sort {
     public static void Sort(int[] arr , int start , int end){
         int mid = start + (end - start) / 2;
-        if(start >= end){
+        if(start >=  end){
             return ;
         }
         Sort(arr , start , mid);
